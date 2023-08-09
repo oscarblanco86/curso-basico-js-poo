@@ -8,7 +8,7 @@ function videoStop(id) {
   console.log("Pausamos la url " + urlSecreta);
 } 
 
-class PlatziClass {
+export class PlatziClass {
   constructor({
     name,
     videoID,
@@ -148,8 +148,8 @@ const miguelito2 = new Student({
   ],
 });
 
-console.log(cursoProgBasica.name);
-cursoProgBasica._name = "Nuevo nombre";
-console.log(cursoProgBasica.name);
-cursoProgBasica._name = "Curso Malito de Programación Básica";
-console.log(cursoProgBasica.name);
+// console.log(cursoProgBasica.name);
+// cursoProgBasica._name = "Nuevo nombre";
+// console.log(cursoProgBasica.name);
+// cursoProgBasica._name = "Curso Malito de Programación Básica";
+// console.log(cursoProgBasica.name);
